@@ -1,0 +1,33 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+<html lang="en">
+  <head>
+    <title>Roadmap</title>
+    <link rel="stylesheet" href="../styles/global.css">
+  </head>
+  <body>
+    <Header />
+    <main class="max-w-2xl mx-auto p-4">
+      <h2 class="text-xl font-semibold mb-2">Project Roadmap</h2>
+      <ol>
+        <li>
+          <strong>In Progress:</strong>
+          <p>
+            <em>Implement a Build Process & Framework</em> — Rebuilding the project with Astro for component-based structure and automatic performance optimization.
+          </p>
+        </li>
+        <li>
+          <strong>Future Improvements:</strong>
+          <ul>
+            <li>Optimize accessibility and SEO</li>
+            <li>Add blog functionality</li>
+            <li>Integrate basic analytics</li>
+          </ul>
+        </li>
+      </ol>
+    </main>
+    <Footer />
+  </body>
+</html>
